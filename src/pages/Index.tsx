@@ -6,7 +6,7 @@ import { useToast } from '@/hooks/use-toast';
 
 const generateKey = () => {
   const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
-  const segments = [4, 5, 5, 5];
+  const segments = [7, 7, 7];
   
   return segments
     .map(length => 
